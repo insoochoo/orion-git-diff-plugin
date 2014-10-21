@@ -8,10 +8,10 @@
  *
  * Contributors: IBM Corporation - initial API and implementation
  ******************************************************************************/
-/*eslint-env browser, amd*/
+
 define(["orion/xhr", "orion/plugin", "orion/Deferred", 'orion/URL-shim'], function(xhr, PluginProvider, Deferred) {
 	var headers = {
-		name: "Git Diff Plugin",
+		name: "Git Diff Annotation Plugin",
 		version: "1.0", //$NON-NLS-0$
 		description: "Git diff status as annotation"
 	};
